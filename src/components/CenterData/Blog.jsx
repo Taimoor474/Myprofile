@@ -5,7 +5,7 @@ import b3 from "../assest/b1.jpg";
 
 const Blog = () => {
   return (
-    <div className='mainblog mt-10 md:text-xl sm:text-sm '  id='blog'>
+    <div className='mainblogss mt-10 md:text-xl sm:text-sm '  id='blog'>
      <div className='text text-center'>
      <h2 className='font-bold text-blk md:text-3xl sm:text-xl '> BLOG</h2>
      <p className='text-lightdark  sm:text-xs md:text-xl'>Amet minim mollit non deserunt ullamco est sit
