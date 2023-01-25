@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Miniinfo from "./components/First/Miniinfo";
+import Detailinfo from "./components/CenterData/Detailinfo";
+import Tabsbutton from "./components/Third/Tabsbutton";
+
+// import Priceplan from "./components/Priceplan";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main bg-backroundcol mx-auto h-full w-full flex">
+      
+     <Miniinfo/>
+     <Detailinfo/>
+     <Tabsbutton/>
+    
+  
     </div>
   );
 }
