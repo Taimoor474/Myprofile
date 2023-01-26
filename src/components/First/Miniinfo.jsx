@@ -8,7 +8,7 @@ import icon2 from "../assest/Vector.png";
 import mainimg from "../assest/myimg.jpg";
 const Miniinfo = () => {
   return (
-    <div className="first  space-y-5 p-8 divide-y divide-backroundcol  content-center  bg-divbg shadow-lg border rounded-sm  text-center border-white min-h-fit w-80">
+    <div className="first font-poppins  space-y-5 p-8 divide-y divide-backroundcol  content-center  bg-divbg shadow-lg border rounded-sm  text-center border-white min-h-fit w-80">
       <div className="first">
         <img
           className="rounded-full border-gray-100 shadow-sm h-20 w-20 ml-16 "

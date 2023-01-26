@@ -10,7 +10,7 @@ import img8 from "../assest/img8.png";
 import img9 from "../assest/img9.png";
 const Portfolio = () => {
   return (
-    <div className='mainproj' id='portfolio'>
+    <div className='mainproj font-poppins ' id='portfolio'>
   <div className='text text-center'>
      <h2 className='font-bold text-blk md:text-3xl sm:text-xl'> Portfolio</h2>
      <p className='text-lightdark sm:text-xs md:text-xl '>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br /> do amet sint. 

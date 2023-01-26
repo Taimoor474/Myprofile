@@ -3,12 +3,12 @@ import mainimg from "../assest/myimg.jpg";
 
 const Profile = () => {
   return (
-    <div className="flex flex-row  p-5 space-x-11 " id='profile'>
-    <div className="p-20  text-blk ">
-      <h2 className=" font-bold text-4xl  ">I’m Taimoor Hussain </h2>
-      <div className=" flex space-x-4  ">
-        <p className="font-bold text-4xl text-yellow "> Front End</p>{" "}
-        <h2 className=" font-bold text-4xl  "> Developer </h2>
+    <div className="flex flex-row  p-5 space-x-11 font-poppins " id='profile'>
+    <div className="md:p-20  text-blk xs:p-16  ">
+      <h2 className=" font-bold text-3xl">I’m Taimoor Hussain </h2>
+      <div className="    ">
+        <p className="font-bold  text-3xl text-yellow "> Front End</p> 
+        <h2 className=" font-bold text-3xl  "> Developer </h2>
       </div>
 
       <p className="mt-5 sm:text-sm md:text-xl  sm:break-after-all sm:box-content">

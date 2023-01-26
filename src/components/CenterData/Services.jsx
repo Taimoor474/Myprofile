@@ -8,7 +8,7 @@ import photographer from "../assest/Icons/Photographer.png";
 
 const Services = () => {
   return (
-    <div className="serveices text-center mt-20 space-x-6 py-16  " id='services'>
+    <div className="serveices font-poppins  text-center mt-20 space-x-6 py-16  " id='services'>
     <div className="servtxt  space-y-2 ">
       <h1 className="text-blk font-bold md:text-3xl sm:text-xl">My Services</h1>
   
@@ -20,7 +20,7 @@ const Services = () => {
       
     </div>
 
-    <div className="maincard grid   sm:grid-cols-1 sm:place-items-center md:grid-cols-3   space-y-7">
+    <div className="maincard grid font-poppins   sm:grid-cols-1 sm:place-items-center md:grid-cols-3   space-y-7">
       <div className="max-h-min w-64 text-center px-5 py-5 mt-8  card1 hover:scale-110 bg-white border border-none border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img src={desktopicon} alt="" className="ml-16  h-20 w-15" />
         <p className="text-blk mt-4 font-bold text-xl">web development</p>

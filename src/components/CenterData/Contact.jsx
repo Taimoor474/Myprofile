@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="main_contact mt-20 md:text-xl sm:text-sm  md:flex sm:flex-none  justify-between">
+    <div className="main_contact font-poppins  mt-20 md:text-lg sm:text-sm  md:flex sm:flex-none  justify-between">
       <div className="md:w-1/2 md:max-h-min  sm:w-full sm:max-h-min ">
         <h3 className="font-bold text-2xl ml-5 text-blk mb-4 ">
           Leave us your info
@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact_main space-y-6 ml-5 ">
+      <div className="contact_main space-y-6 md:mt-2 xs:mt-14 ">
         <h5 className=" text-blk font-bold text-2xl">Contact information</h5>
         
     <div className="md:max-h-min md:w-80  text-center sm:w-60 sm:max-h-min sm:text-xs  px-5  py-3 mt-8 hover:scale-105 card1 
@@ -86,7 +86,7 @@ const Contact = () => {
             <line x1="11" y1="5" x2="13" y2="5" />
             <line x1="12" y1="17" x2="12" y2="17.01" />
           </svg>
-          <div className="innertext sm:text-sm md:text-xl    ">
+          <div className="innertext sm:text-sm md:text-lg xs:text-sm    ">
             <div className="flex justify-between text-divbg space-x-10">
               <p className="text-blk mt-4 font-bold ">Country:</p>
               <p className="text-lightdark mt-4 ">Pakistan</p>
@@ -123,10 +123,10 @@ const Contact = () => {
             <rect x="3" y="5" width="18" height="14" rx="2" />
             <polyline points="3 7 12 13 21 7" />
           </svg>
-          <div className="innertext text-divbg md:text-xl sm:text-sm">
-            <div className="flex justify-between space-x-10">
+          <div className="innertext text-divbg md:text-lg xs:overflow-hidden sm:text-sm">
+            <div className="flex justify-between ">
               <p className="text-blk mt-4 font-bold ">Email:</p>
-              <p className="text-lightdark mt-4 ">youremail@gmail.com</p>
+              <p className="text-lightdark mt-4 ">taimoorhussain5a@gmail.com</p>
             </div>
 
             <div className="flex justify-between space-x-10 ">
@@ -161,7 +161,7 @@ const Contact = () => {
             <line x1="11" y1="5" x2="13" y2="5" />
             <line x1="12" y1="17" x2="12" y2="17.01" />
           </svg>
-          <div className="innertext md:text-xl sm:text-sm   ">
+          <div className="innertext md:text-lg sm:text-sm   ">
             <div className="flex justify-between text-divbg space-x-10">
               <p className="text-blk mt-4 font-bold ">
                 Support services:

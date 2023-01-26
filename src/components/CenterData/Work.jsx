@@ -2,7 +2,7 @@ import React from 'react'
 
 const Work = () => {
   return (
-<div className='edumain py-16' id='work'>
+<div className='edumain font-poppins  py-16' id='work'>
 <div className=' text-center sm:text-xs md:text-xl'>
  <h2 className='font-bold text-blk md:text-3xl sm:text-xl'> Work History</h2>
  <p className='text-lightdark sm:text-xs md:text-xl'>Amet minim mollit non deserunt ullamco

@@ -12,7 +12,7 @@ import Work from "./Work";
 
 const Detailinfo = () => {
   return (
-    <div className="second flex-1 space-x-10  border-none rounded-sm   min-h-max w-80">
+    <div className="second flex-1 space-x-10  border-none rounded-sm font-poppins    min-h-max w-80">
 
      
        <Profile />

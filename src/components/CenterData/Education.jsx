@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className='edumain md:py-16 sm:p-0    sm:text-xs md:text-lg ' id='education'>
+    <div className='edumain font-poppins  md:py-16 sm:p-0    sm:text-xs md:text-lg ' id='education'>
         <div className='text text-center'>
      <h2 className='font-bold text-blk md:text-3xl sm:text-xl'> EDUCATION</h2>
      <p className='text-lightdark  md:text-xl  

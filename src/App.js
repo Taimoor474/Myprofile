@@ -7,7 +7,7 @@ import Tabsbutton from "./components/Third/Tabsbutton";
 
 function App() {
   return (
-    <div className="main bg-backroundcol mx-auto h-full w-full flex">
+    <div className="main bg-backroundcol mx-auto h-full w-full flex font-sans">
       
      <Miniinfo/>
      <Detailinfo/>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-scroll";
   const Tabsbutton=()=>{
   return (
-<div className="third border border-none rounded-sm bg-divbg ml-4 w-20  p-5  ">
+<div className="third font-poppins  border border-none rounded-sm bg-divbg ml-4 w-20  p-5  ">
   <div className='space-y-5'>
   <Link activeClass="active" className=' block hover:bg-yellow bg-lighter rounded-full p-2'to="profile" spy={true} smooth={true} offset={50} duration={500} >
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">

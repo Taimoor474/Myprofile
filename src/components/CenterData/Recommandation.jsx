@@ -6,7 +6,7 @@ import p3 from "../assest/p3.jpg";
 
 const Recommandation = () => {
   return (
-    <div className="Mainrec py-16">
+    <div className="Mainrec py-16 font-poppins ">
       <div className="text text-center">
         <h2 className="text-blk font-bold md:text-3xl sm:text-xl">Recommandation</h2>
         <p className="text-lightdark sm:text-xs md:text-xl  ml-6">
