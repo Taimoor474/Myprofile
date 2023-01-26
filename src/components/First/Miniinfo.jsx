@@ -11,15 +11,15 @@ const Miniinfo = () => {
     <div className="first  space-y-5 p-8 divide-y divide-backroundcol  content-center  bg-divbg shadow-lg border rounded-sm  text-center border-white min-h-fit w-80">
       <div className="first">
         <img
-          className="rounded-full xs:ml-11 border-gray-100 shadow-sm h-20 w-20 md:ml-16 "
+          className="rounded-full border-gray-100 shadow-sm h-20 w-20 md:ml-16 "
           src={mainimg}
           alt=""
         />
 
-        <p className="text-txtcol xs:text-sm font-bold md:text-xl  texto-blk ">
+        <p className="text-txtcol  font-bold md:text-xl  texto-blk ">
           Taimoor Hussain
         </p>
-        <p className="text-txtcol2 font-bold xs:text-sm md:text-xl   text-lightdark ">
+        <p className="text-txtcol2 font-bold  md:text-xl   text-lightdark ">
           Front-end Developer
         </p>
 
@@ -31,7 +31,7 @@ const Miniinfo = () => {
         </div>
       </div>
 
-      <div className=" second flex md:space-x-6 md:text-justify xs:indent-5 md:indent-14  md:py-7 xs:w-36 xs:space-y-0 xs:text-xs xs:space-x-0  ">
+      <div className=" second flex space-x-6 text-justify  indent-14  py-7  ">
         <div className="space-y-4">
           <h2 className="bg-yellow  rounded-sm">Age</h2>
           <h1 className="bg-yellow  rounded-sm">Residence</h1>
@@ -150,32 +150,32 @@ const Miniinfo = () => {
         </div>
       </div>
 
-      <div className="fifith p-2 md:text-xl sm:text-lg xs:text-base ">
+      <div className="fifith p-2 md:text-xl sm:text-lg ">
         <p className=" font-bold text-blk ">Extra Skills</p>
         <div className=" list mt-5 space-y-4 ">
           <div className="flex space-x-3">
-            <img src={icon} className="w- md:h-6 sm:h-4 xs:h-3F" alt="" />
+            <img src={icon} className=" md:h-6 sm:h-4 " alt="" />
             <label htmlFor="" className="text-lightdark  font-semibold">
             
               Tailwindcss
             </label>
           </div>
           <div className="flex space-x-3">
-            <img src={icon} className="w- md:h-6 sm:h-4 xs:h-3F" alt="" />
+            <img src={icon} className= "md:h-6 sm:h-4 " alt="" />
             <label htmlFor="" className="text-lightdark  font-semibold">
            
               Nodejs
             </label>
           </div>
           <div className="flex space-x-3">
-            <img src={icon} className="w- md:h-6 sm:h-4 xs:h-3F" alt="" />
+            <img src={icon} className="w- md:h-6 sm:h-4 " alt="" />
             <label htmlFor="" className="text-lightdark  font-semibold">
               
               Mongo
             </label>
           </div>
           <div className="flex space-x-3">
-            <img src={icon} className=" md:h-6 sm:h-4 xs:h-3F" alt="" />{" "}
+            <img src={icon} className=" md:h-6 sm:h-4 " alt="" />{" "}
             <label htmlFor="" className="text-lightdark  font-semibold">
               {" "}
               Expressjs
@@ -184,9 +184,9 @@ const Miniinfo = () => {
         </div>
       </div>
 
-      <div className="sixth p-2 flex  justify-center rounded-md hover:scale-105 bg-yellow xs:text-sm md:text-lg text-lightdark font-semibold">
+      <div className="sixth p-2 flex  justify-center rounded-md hover:scale-105 bg-yellow md:text-lg text-lightdark font-semibold">
         <button className="flex">
-          DOWNLOAD CV <img className="ml-2 xs:mt-1 md:mt-2" src={icon2} alt="" />
+          DOWNLOAD CV <img className="ml-2 md:mt-2" src={icon2} alt="" />
         </button>
       </div>
     </div>

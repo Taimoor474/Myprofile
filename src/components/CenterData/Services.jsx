@@ -12,7 +12,7 @@ const Services = () => {
     <div className="servtxt  space-y-2 ">
       <h1 className="text-blk font-bold md:text-3xl sm:text-xl">My Services</h1>
   
-      <p className='text-lightdark sm:text-xs md:text-xl xs:text-sm  ' >
+      <p className='text-lightdark sm:text-xs md:text-xl -  ' >
         Amet minim mollit non deserunt ullamco <br /> est sit aliqua dolor 
         do amet sint. Velit officia consequat duis enim velit mollit.
       </p>
