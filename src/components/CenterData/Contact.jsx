@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="main_contact mt-20 md:text-xl sm:text-sm  md:flex sm:flex-none  justify-between">
       <div className="md:w-1/2 md:max-h-min  sm:w-full sm:max-h-min ">
-        <h3 className="font-bold text-3xl ml-5 text-blk mb-4 ">
+        <h3 className="font-bold text-2xl ml-5 text-blk mb-4 ">
           Leave us your info
         </h3>
         <div className="info_main bg-divbg max-h-min w-full p-5  space-y-5  ">
@@ -62,8 +62,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact_main space-y-6 ml-14  ">
-        <h5 className=" text-blk font-bold text-3xl">Contact information</h5>
+      <div className="contact_main space-y-6 ml-5 ">
+        <h5 className=" text-blk font-bold text-2xl">Contact information</h5>
         
     <div className="md:max-h-min md:w-80  text-center sm:w-60 sm:max-h-min sm:text-xs  px-5  py-3 mt-8 hover:scale-105 card1 
   bg-white border border-none border-gray-200 rounded-lg shadow-md dark:bg-gray-800

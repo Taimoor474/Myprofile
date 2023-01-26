@@ -5,7 +5,7 @@ import b3 from "../assest/b1.jpg";
 
 const Blog = () => {
   return (
-    <div className='mainblogsss mt-10 md:text-xl sm:text-sm '  id='blog'>
+    <div className='mainblogsss mt-10 md:text-xl p-1 sm:text-sm '  id='blog'>
      <div className='text text-center'>
      <h2 className='font-bold text-blk md:text-3xl sm:text-xl '> BLOG</h2>
      <p className='text-lightdark  sm:text-xs md:text-xl'>Amet minim mollit non deserunt ullamco est sit
@@ -14,7 +14,7 @@ const Blog = () => {
         </div>
           <div className='images grid md:grid-cols-3 sm:grid-cols-1 place-items-center mt-5 space-y-5 '>
              <div className='bg-divbg w-72  card3 hover:scale-105 max-h-min '>
-                <img src={b1} alt=""  />
+                <img src={b1} alt=""   />
                 <div className='imgtext p-4 space-y-3 '>
                 <h3 className=' text-blk font-bold'>How to make web </h3>
                 <p  className='text-lightdark break-all'>lorem ipsum dolor sit amet, consectetur adipiscing elit
