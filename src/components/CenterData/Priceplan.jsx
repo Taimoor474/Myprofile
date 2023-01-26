@@ -5,7 +5,7 @@ const Priceplan = () => {
     <div className="price_main py-1" id='price'>
     <div className="text-center mt-14 space-y-4">
       <h3 className="font-bold md:text-3xl sm:text-xl text-blk">Price plans</h3>
-      <p className="text-lightdark sm:text-xs md:text-xl">
+      <p className="text-lightdark sm:text-xs md:text-xl   xs:text-sm ">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor <br />{" "}
         do amet sint. Velit officia consequat duis enim velit mollit. lorem
         ipsum

@@ -8,13 +8,16 @@ import photographer from "../assest/Icons/Photographer.png";
 
 const Services = () => {
   return (
-    <div className="serveices text-center mt-20 space-x-6 py-16 " id='services'>
-    <div className="servtxt space-y-5  ">
+    <div className="serveices text-center mt-20 space-x-6 py-16  " id='services'>
+    <div className="servtxt  space-y-2 ">
       <h1 className="text-blk font-bold md:text-3xl sm:text-xl">My Services</h1>
-      <p className="text-lightdark sm:text-xs md:text-xl">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor <br />
+  
+      <p className='text-lightdark sm:text-xs md:text-xl xs:text-sm  ' >
+        Amet minim mollit non deserunt ullamco <br /> est sit aliqua dolor 
         do amet sint. Velit officia consequat duis enim velit mollit.
       </p>
+    
+      
     </div>
 
     <div className="maincard grid   sm:grid-cols-1 sm:place-items-center md:grid-cols-3   space-y-7">

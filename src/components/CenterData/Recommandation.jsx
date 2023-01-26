@@ -9,7 +9,7 @@ const Recommandation = () => {
     <div className="Mainrec py-16">
       <div className="text text-center">
         <h2 className="text-blk font-bold md:text-3xl sm:text-xl">Recommandation</h2>
-        <p className="text-lightdark sm:text-xs md:text-xl">
+        <p className="text-lightdark sm:text-xs md:text-xl xs:truncate ml-6">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor <br />
           do amet sint. Velit officia consequat duis enim velit mollit.
           <br /> lorem ipsum
