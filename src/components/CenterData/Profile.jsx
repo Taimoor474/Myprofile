@@ -5,10 +5,10 @@ const Profile = () => {
   return (
     <div className="flex flex-row  p-5 space-x-11 " id='profile'>
     <div className="p-20  text-blk ">
-      <h2 className=" font-bold md:text-4xl  ">I’m Taimoor Hussain </h2>
+      <h2 className=" font-bold text-4xl  ">I’m Taimoor Hussain </h2>
       <div className=" flex space-x-4  ">
-        <p className="font-bold md:text-4xl text-yellow "> Front End</p>{" "}
-        <h2 className=" font-bold md:text-4xl  "> Developer </h2>
+        <p className="font-bold text-4xl text-yellow "> Front End</p>{" "}
+        <h2 className=" font-bold text-4xl  "> Developer </h2>
       </div>
 
       <p className="mt-5 sm:text-sm md:text-xl  sm:break-after-all sm:box-content">
@@ -17,7 +17,7 @@ const Profile = () => {
         suspendisse nunc lectus.
       </p>
 
-      <button className=" mt-5 hover:scale-105 md:text-xl bg-yellow text-blk border rounded-md hover:opacity-95 px-7 py-3  text-xl font-bold border-none">
+      <button className=" mt-5 hover:scale-105  bg-yellow text-blk border rounded-md hover:opacity-95 px-7 py-3  text-xl font-bold border-none">
         HIRE ME
       </button>
     </div>

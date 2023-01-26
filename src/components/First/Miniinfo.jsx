@@ -11,7 +11,7 @@ const Miniinfo = () => {
     <div className="first  space-y-5 p-8 divide-y divide-backroundcol  content-center  bg-divbg shadow-lg border rounded-sm  text-center border-white min-h-fit w-80">
       <div className="first">
         <img
-          className="rounded-full border-gray-100 shadow-sm h-20 w-20 md:ml-16 "
+          className="rounded-full border-gray-100 shadow-sm h-20 w-20 ml-16 "
           src={mainimg}
           alt=""
         />
@@ -186,7 +186,7 @@ const Miniinfo = () => {
 
       <div className="sixth p-2 flex  justify-center rounded-md hover:scale-105 bg-yellow md:text-lg text-lightdark font-semibold">
         <button className="flex">
-          DOWNLOAD CV <img className="ml-2 md:mt-2" src={icon2} alt="" />
+          DOWNLOAD CV <img className="ml-2 mt-2" src={icon2} alt="" />
         </button>
       </div>
     </div>

@@ -62,7 +62,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact_main space-y-6 sm:ml-14  ">
+      <div className="contact_main space-y-6 ml-14  ">
         <h5 className=" text-blk font-bold text-3xl">Contact information</h5>
         
     <div className="md:max-h-min md:w-80  text-center sm:w-60 sm:max-h-min sm:text-xs  px-5  py-3 mt-8 hover:scale-105 card1 
